@@ -1,0 +1,1 @@
+export const userImage = require("./user.jfif")
