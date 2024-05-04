@@ -54,7 +54,7 @@ const MainSection = () => {
         </div>
         <div className='flex max-h-[60vh] gap-2 flex-1'>
           <div className="flex flex-col flex-[2] gap-2">
-            <div className="bg-white rounded-md shadow-md flex-[2] flex items-center px-4 py-4 justify-between">
+            <div className="bg-white rounded-md shadow-md flex-[1] flex items-center px-4 py-4 justify-between">
               <div className="flex gap-6">
                 <div className='flex gap-1 border-base border-solid border rounded-md py-1 px-2 items-center cursor-pointer w-[110px] h-[28px] justify-center hover:bg-[#c242ee] bg-base text-white'>
                   <ListOutline
@@ -91,7 +91,7 @@ const MainSection = () => {
                 <input type="search" name="" id="" placeholder='Search' className='border-none outline-none bg-gray-200 pl-4 rounded-md w-[100px]' />
               </div>
             </div>
-            <div className="bg-white rounded-md shadow-md flex-[8] p-1 overflow-hidden">
+            <div className="bg-white rounded-md shadow-md flex-[9] p-1 overflow-hidden">
               <div className="px-4 pr-20 w-full flex justify-between items-center border-b h-[40px]">
                 <input type="checkbox" name="all" id="" className='border-gray-100 border bg-blue-300' />
                 <div className="flex gap-4 items-center">
