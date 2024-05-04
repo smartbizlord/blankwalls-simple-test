@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+
+
+* {
+  transition: all ease 0.9s;
+}
+
+.long-stuff {
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

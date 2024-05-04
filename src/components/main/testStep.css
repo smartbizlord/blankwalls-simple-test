@@ -1,0 +1,12 @@
+.maes:has(.maed) {
+    /* display: contents !important; */
+    /* background-color: red !important; */
+}
+
+.maes:hover {
+    .maed {
+        display: block;
+        transition: all ease-in-out 5000ms linear;
+        /* background-color: aqua; */
+    }
+}

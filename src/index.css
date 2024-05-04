@@ -12,6 +12,26 @@ code {
     monospace;
 } */
 
+.mumu {
+  color: #838383;
+}
+
+.forty-deg {
+  transform: rotate(45deg)
+}
+
+.overflow-hidden {
+  overflow: none;
+}
+
+.overflow-scroll {
+  overflow-y: scroll
+}
+
+.h-minus-50 {
+  height: calc(100% - 50px)
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

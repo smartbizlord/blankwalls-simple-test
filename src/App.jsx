@@ -26,7 +26,7 @@ function App() {
     // </div>
     <Provider store={store}>
       {/*  */}
-      <div className='flex'>
+      <div className='flex general'>
         <SideBarWrapper />
         <MainWrapper />
       </div>
